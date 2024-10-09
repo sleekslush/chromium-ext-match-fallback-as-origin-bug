@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+function onClick() {
+    const w = window.open('','Window Print Test','width=600,height=600');
+    w.document.writeln('<head><script type="text/javascript">');
+    w.document.writeln('window.onload = () => { window.print(); window.close(); };');
+    w.document.writeln('</'+'script></head>');
+    w.document.close();
+}
+</script>
+</head>
+<body>
+<button onClick="onClick()">click me</button>
+</body>
+</html>
