@@ -2,7 +2,7 @@
 
 ## Steps
 
-1. Install the unpacked extension from `ext/` into Chrome
+1. Test with and without the unpacked extension from `ext/` in Chrome
 2. Open `test.html`
 3. Click the `Click me` button.
 4. Observe that a window pops open and then immediately closes.
